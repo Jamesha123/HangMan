@@ -1,10 +1,10 @@
 # Hangman Game
 
-A modern, interactive Hangman word game built with Java Swing featuring a beautiful GUI, virtual keyboard, and visual hangman drawing.
+Interactive Hangman word game built with Java Swing featuring a GUI, virtual keyboard, and visual hangman drawing.
 
 ## 🎮 Features
 
-- **Beautiful GUI Interface**: Modern Swing-based user interface with clean design
+- **GUI Interface**: Swing-based user interface with clean design
 - **Visual Hangman Drawing**: Progressive hangman drawing that appears with each wrong guess
 - **Virtual Keyboard**: Clickable A-Z keyboard with visual feedback for guessed letters
 - **Real-time Game State**: Live updates of word progress, remaining guesses, and status
@@ -58,50 +58,5 @@ Hangman/
 ├── Hangman_Launcher.bat # Smart launcher for Windows
 ├── Hangman.bat          # Simple JAR launcher
 └── README.md            # This file
-```
-
-## 🎯 Game Mechanics
-
-- **Word Selection**: Randomly selects words from the dictionary
-- **Guess Limit**: 6 wrong guesses before game over
-- **Letter Revealing**: Correct letters are revealed in their positions
-- **Visual Progress**: Hangman drawing shows remaining attempts
-- **Keyboard Tracking**: Virtual keyboard shows which letters have been guessed
-
-## 🎨 GUI Components
-
-- **Hangman Drawing Panel**: Custom Graphics2D rendering of the hangman
-- **Word Display**: Large, clear font showing current word state
-- **Virtual Keyboard**: 3x9 grid of clickable letter buttons
-- **Input Field**: Text input with validation
-- **Status Messages**: Real-time feedback and game state updates
-- **Dialog Boxes**: Win/lose notifications with play-again options
-
-## 🔧 Technical Details
-
-- **Framework**: Java Swing (JFrame, JPanel, JButton, etc.)
-- **Graphics**: Custom Graphics2D rendering for hangman drawing
-- **Event Handling**: ActionListeners for button clicks and text input
-- **Layout Management**: BorderLayout and GridLayout for organized UI
-- **File I/O**: Scanner for reading dictionary file
-- **Data Structures**: ArrayList for word storage and guess tracking
-
-## 🎮 Controls
-
-- **Text Input**: Type letters and press Enter or click Guess button
-- **Virtual Keyboard**: Click any letter button to make a guess
-- **Game Reset**: Automatic restart option after win/lose
-- **Exit**: Close window or select "No" when asked to play again
-
-## 📝 Development
-
-Built with modern Java practices:
-- Object-oriented design with custom JPanel classes
-- Event-driven programming with ActionListeners
-- Clean separation of concerns (GUI, game logic, drawing)
-- Proper error handling and user feedback
-- Cross-platform compatibility
-
-## 🏆 Enjoy the Game!
-
-Have fun playing this classic word game with a modern twist! The combination of visual feedback, intuitive controls, and beautiful graphics makes for an engaging gaming experience.
+``
+Enjoy playing HangMan!
